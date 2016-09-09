@@ -78,19 +78,19 @@ Download the gerenated models and copy them into the root of the MagicMirror dir
 
 ## Setup
 
-1. Clone the module into your `modules` folder in the MagicMirror's code location by running this command:
+* Clone the module into your `modules` folder in the MagicMirror's code location by running this command:
 
 ````
 git clone https://github.com/alexyak/camera.git
 ````
 
-2. Navigate to the camera sub folder: ```` cd camera ```` and run the following command to install node.js dependencies:
+* Navigate to the camera sub folder: ```` cd camera ```` and run the following command to install node.js dependencies:
 
 ````
 npm install
 ````
 
-3. If you have not already done so install the [Voice Control module](https://github.com/alexyak/voicecontrol) by running the following command in the `modules' folder:
+* If you have not already done so install the [Voice Control module](https://github.com/alexyak/voicecontrol) by running the following command in the `modules' folder:
 
 ````
 git clone https://github.com/alexyak/voicecontrol.git
@@ -98,7 +98,7 @@ git clone https://github.com/alexyak/voicecontrol.git
 
 Check the README.md for the Voice Control module to configure it for the MagicMirror.
 
-4. In order to use the generated models mentioned above, update the configuration section for the `voicecontrol` module to look like this:
+* In order to use the generated models mentioned above, update the configuration section for the `voicecontrol` module to look like this:
 
 ````
 {

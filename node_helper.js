@@ -3,7 +3,6 @@
  * node_helper for camera module
  */
 var NodeHelper = require('node_helper');
-//var _ = require('underscore');
 var nodemailer = require('nodemailer');
 
 module.exports = NodeHelper.create({

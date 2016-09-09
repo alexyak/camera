@@ -1,0 +1,20 @@
+{
+  "name": "camera",
+  "author": "Alex Yakhnin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Module for displaying camera in the magic mirror and making selfies",
+  "keywords": [
+    "email",
+    "camera",
+    "smart mirror",
+    "mirror camera" ],
+
+    "repository": {
+       "type": "git",
+        "url": "git+https://github.com/alexyak/camera"
+    },
+  "dependencies": {
+    "nodemailer": "^2.5.0"
+  }
+}

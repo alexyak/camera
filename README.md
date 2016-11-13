@@ -7,19 +7,21 @@ This module also allows you to make "selfie" photo snapshots with the camera and
 
 To use `camera` module, add it to the modules array in the `config/config.js` file with the following settings:
 ````javascript
-
-modules: [
+{
     module: 'camera',
     position: 'top_center',
-    config: selfieInterval: 3,  // Time interval in seconds before the photo will be taken.
-		emailConfig: {
-			service: 'Hotmail', // Email provider to use to send email with a photo.
-			auth: {
-				user: '<name@email.com>', // Your email account
-				pass: '<password>'        // Your password for email account
-			}
-		}
-]
+    config: {
+        selfieInterval: 3,  // Time interval in seconds before the photo will be taken.
+    	emailConfig: {
+    		service: 'Hotmail', // Email provider to use to send email with a photo.
+    		auth: {
+    			user: '<name@email.com>', // Your email account
+    			pass: '<password>'        // Your password for email account
+    		}
+    	}
+    } 
+        
+}
 
 ````
 

@@ -9,6 +9,7 @@ To use `camera` module, add it to the modules array in the `config/config.js` fi
 ````javascript
 
 modules: [
+    {
     module: 'camera',
     position: 'top_center',
     config: selfieInterval: 3,  // Time interval in seconds before the photo will be taken.
@@ -19,6 +20,7 @@ modules: [
 				pass: '<password>'        // Your password for email account
 			}
 		}
+     }
 ]
 
 ````
